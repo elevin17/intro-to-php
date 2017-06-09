@@ -33,6 +33,6 @@ $about_me='Hey there, I'm using php!';
       <td>town<?=$about_me ?></td>
     </tr>
     </tbody>
-  <table>
+  </table>
   </section>
 
