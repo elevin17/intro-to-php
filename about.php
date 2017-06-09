@@ -3,7 +3,7 @@ $name='Елена';
 $age='30';
 $email='elevinogrado@yandex.ru';
 $town='Сочи';
-$about_me='Hey there, I"m using php!';
+$about_me='Hey there, I\'m using php!';
 ?>
 <section>
   <h1>Страница пользователя <?=$name?></h1>
