@@ -14,23 +14,23 @@ $about_me='Hey there, I'm using php!';
     <tbody>
     <tr>
       <td>Имя</td>
-      <td>,kf,kf<?=$name?></td>
+      <td><?=$name ?></td>
     </tr>
     <tr>
       <td>Возраст</td>
-      <td>30<?=$age?></td>
+      <td>3<?=$age ?></td>
     </tr>
     <tr>
       <td>Адрес электронной почты</td>
-      <td>email<?=$email?></td>
+      <td><?=$email ?></td>
     </tr>
     <tr>
       <td>Город</td>
-      <td>town<?=$town ?></td>
+      <td><?=$town ?></td>
     </tr>
     <tr>
       <td>О себе</td>
-      <td>town<?=$about_me ?></td>
+      <td><?=$about_me ?></td>
     </tr>
     </tbody>
   </table>
