@@ -1,12 +1,9 @@
 <?php
 $name='Елена';
-php_EOL;
 $age='30';
-php_EOL;
 $email='elevinogrado@yandex.ru';
-php_EOL;
 $town='Сочи';
-$about_me='Hey there, I'm using php!';
+$about_me='Hey there, I"m using php!';
 ?>
 <section>
   <h1>Страница пользователя <?=$name?></h1>
@@ -18,7 +15,7 @@ $about_me='Hey there, I'm using php!';
     </tr>
     <tr>
       <td>Возраст</td>
-      <td>3<?=$age ?></td>
+      <td><?=$age ?></td>
     </tr>
     <tr>
       <td>Адрес электронной почты</td>
@@ -35,4 +32,3 @@ $about_me='Hey there, I'm using php!';
     </tbody>
   </table>
   </section>
-
